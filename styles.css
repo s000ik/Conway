@@ -1,0 +1,106 @@
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    background-image: url('https://x0.at/vdP1.png'); /*https://x0.at/5dP1.png is a custom image of mine, will expire in approximately 60days*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    z-index: -2;
+  }
+  
+   
+  #timeDisplay {
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    opacity: 0.8;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: thin solid white;
+    font-size: 3.5em;
+    text-align: center;
+  }
+  
+  #dateDisplay {
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    opacity: 0.8;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    
+    font-size: 3.5em;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: normal;
+    letter-spacing: 0.2em;
+  }
+  
+  #quoteContent {
+    height: 45em;
+  }
+  
+  
+  #quote {
+    max-width: 30em;
+    color: white;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: 40px auto;
+    text-transform: lowercase;
+    line-height: 145%;
+    font-size: 2em;
+    font-variant: small-caps;
+    opacity: 1;
+    transition: opacity 400ms ease-in-out;
+  }
+
+
+  #newQuoteButton {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    outline: none;
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border: thin solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 9%;
+    transition: 0.5s;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  #newQuoteButton:hover {
+    background-color: white;
+    color: black;
+    border: thin solid black;
+    opacity: 0.8;
+  }
+  
+  .container {
+    padding-top: 6em;
+    text-align: center;
+  }
+  
+  #buttonNav {
+    padding-bottom: 5em;
+    position: fixed;
+    width: 100%;
+    bottom: 2em;
+  }
+  
+  #buttonNav ul {
+    margin: 0;
+    padding: 0.5em;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  #buttonNav ul li {
+    display: inline;
+  }
+  
